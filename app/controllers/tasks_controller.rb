@@ -39,7 +39,7 @@ class TasksController < ApplicationController
 
   def toggle
     @task = Task.find(params[:id])
-    @task.update(complited: params[:complited])
+    @task.update(completed: params[:completed])
 
     render json: { message: "Успешно выполнено" }
   end
