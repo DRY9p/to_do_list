@@ -37,5 +37,5 @@
 ### Установка
 1. Клонируйте репозиторий:
 ```bash
-git clone https://github.com/ваш-username/to_do_list.git
+git clone https://github.com/DRY9p/to_do_list.git
 cd to_do_hotwire
