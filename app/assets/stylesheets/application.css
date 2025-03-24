@@ -8,3 +8,9 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+turbo-frame {
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    padding: 0.1em 1em;
+    margin: 1em 0;
+}
