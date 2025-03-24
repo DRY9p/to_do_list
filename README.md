@@ -1,24 +1,41 @@
-# README
+# To-Do List на Hotwire и Stimulus
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[![Ruby on Rails](https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=flat&logo=ruby-on-rails&logoColor=white)](https://rubyonrails.org)
+[![Hotwire](https://img.shields.io/badge/Hotwire-00c7b7?style=flat)](https://hotwired.dev)
+[![Rails 8.0.2](https://img.shields.io/badge/Rails-8.0.2-red)](https://rubyonrails.org)
 
-Things you may want to cover:
+Современное To-Do приложение с использованием Hotwire для создания реактивных интерфейсов без тяжёлого JavaScript.
 
-* Ruby version
+## ✨ Особенности
 
-* System dependencies
+- **Без перезагрузок страниц** благодаря Turbo Drive
+- Динамические обновления через:
+  - Turbo Frames для частичных обновлений
+  - Turbo Streams для манипуляций DOM в реальном времени
+- Интерактивность через Stimulus-контроллеры
+- Валидации моделей и обработка ошибок
+- Адаптивный дизайн на Tailwind CSS
+- RESTful архитектура
 
-* Configuration
+## 🛠️ Технологии
 
-* Database creation
+- Ruby 3.x
+- Rails 8.0.2
+- Hotwire (Turbo + Stimulus)
+- SQLite3 (база данных)
+- Tailwind CSS (стили)
+- Importmaps (управление JavaScript)
+- Solid Cache/Queue (кеш и очереди)
+- Kamal (деплой)
 
-* Database initialization
+## 🚀 Быстрый старт
 
-* How to run the test suite
+### Предварительные требования
+- Ruby 3.x
+- Rails 8.x
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Установка
+1. Клонируйте репозиторий:
+```bash
+git clone https://github.com/ваш-username/todo-hotwire.git
+cd todo-hotwire
